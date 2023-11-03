@@ -1,0 +1,11 @@
+[package]
+name = "myfuzzer"
+version = "0.1.0"
+authors = ["Ramin Farajpour Cami"]
+repository = "https://github.com/raminfp/libfuzzer-rs"
+
+[workspace]
+members = ["."]
+
+[build-dependencies]
+cc = "*"
