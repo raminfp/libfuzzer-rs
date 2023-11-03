@@ -112,7 +112,7 @@ pub fn fuzz(data: &[u8]) {
 #### Finally, run the following commands:
 
 ```bash
-[04:09] raminfp@zenbook:example (main) # pwd
+$ [04:09] raminfp@zenbook:example (main) # pwd
 /home/raminfp/Projects/Develop/libfuzzer/example
 $ [03:18] raminfp@zenbook:example # cargo rustc -- \
     -C passes='sancov-module' \
